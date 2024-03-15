@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+.navbar-left {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: auto;
+}
+.navbar-text {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 920px;
+  color: #000;
+  font-size: 1.2em;
+  margin-left: auto;
+}
+
+.first_button {
+  background-color: #9c5bf4;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 9px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.second_button {
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.vdoconfbox {
+  width: 1463px;
+  height: 790px;
+  margin-top: 5px;
+  margin-left: 12px;
+  margin-right: 3px;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-top: #000 solid;
+  border-bottom: #000 solid;
+  border-left: #000 solid;
+  border-right: #000 solid;
+}
+.vdoconf {
+  border: thin;
+}
+.footer {
+  margin-top: 5px;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-button1-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.left-button1 {
+  position: relative;
+  align-self: flex-start;
+  bottom: 0;
+  left: 0;
+  margin-left: -90%;
+}
+.button1 {
+  background-color: #9c5bf4;
+  font-size: 25px;
+  margin-right: 15px;
+  margin-left: 463px;
+}
+.button2 {
+  font-size: 25px;
+  margin-right: 15px;
+}
+.button3 {
+  font-size: 25px;
+  margin-right: 15px;
+}
+.button4 {
+  font-size: 25px;
+  margin-right: 15px;
+}
+.button5 {
+  background-color: red;
+  font-size: 27px;
+  margin-right: 600px;
+}
+/* .endbutton1 {
+  color: #grey;
+  margin-top: 5px;
+  margin-left: 55px;
+  margin-right: 20px;
+  font-size: 11px;
+  width: 60px;
+} */
+.endbutton2 {
+  color: #fff;
+  font-size: 18px;
+  width: '123px';
+  height: '38px';
+  margin-top: 5px;
+  margin-left: 85px;
+}
+.feedback-btn {
+  color: #fff;
+  font-size: 15px;
+  width: 60px;
+  margin-top: 55px;
+  margin-left: 3px;
+}
+.right-buttons-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-end space-between;
+  flex-wrap: wrap;
+}
+.right-button1 {
+  position: static;
+  align-self: flex-end;
+  flex-direction: row;
+  bottom: 0;
+  right: 10;
+  /* margin-right: -1600%; */
+}
+.right-button2 {
+  position: static;
+  align-self: flex-end;
+  flex-direction: row;
+  bottom: 0;
+  right: 0;
+  /* margin-left: 10px;
+  margin-right: -1600%; */
+}
+.new-page-container {
+  height: 1000px;
+  background-color: #000;
+}
+.new-page-header {
+  text-align: center;
+  color: #fff;
+  font-size: small;
+}
+.new-page-emoji {
+  position: relative;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 50px;
+  margin-right: 22px;
+}
+.new-page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 500px;
+  color: #fff;
+  margin-top: -130px;
+}
+.niceday {
+  text-align: center;
+  color: grey;
+  font-weight: lighter;
+}
+.new-page-footer {
+  text-align: center;
+  color: #fff;
+}
+.screen-split {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left-box {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  width: 1253px;
+  height: 790px;
+  margin-top: 5px;
+  margin-left: 12px;
+  margin-right: 3px;
+  padding: 100px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-top: #000 solid;
+  border-bottom: #000 solid;
+  border-left: #000 solid;
+  border-right: #000 solid;
+}
+
+.right-box {
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-top: #000 solid;
+  border-bottom: #000 solid;
+  border-left: #000 solid;
+  border-right: #000 solid;
+  width: 253px;
+  height: 253px;
+  margin-top: 540px;
+  margin-left: 195px;
+}
+
+/* .stoppresent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 170px;
+} */
