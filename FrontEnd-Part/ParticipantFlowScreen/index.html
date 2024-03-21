@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/regular.min.css" />
+    <title>RnPSoft Video Call</title>
+</head>
+<body>
+    <header>
+        <div class="logo">RnPSoft Pvt Ltd</div>
+        <div class="controls">
+            <button class="start-recording" style="background-color: #5840BA;">Start Recording</button>
+            <div >  
+                <ul id="navbar">
+                    <li id="dots">
+                        <div id="p">Participants</div> 
+                       <!-- <select name="Role" id="Roles">
+                            <option value="volvo">Everyone</option>
+                            <option value="saab">Raised hand</option>
+                            <option value="mercedes">Broadcaster</option>
+                            <option value="audi">speaker</option>
+                            <option value="audi">viewer</option>
+                        </select> -->
+                        <i id="close" class="fa fa-times" ></i>
+                    </li>
+                    <li id="dots">
+                        <form>
+                            <input type="text" placeholder="Find what you're looking for">
+                        </form>
+                    </li>
+                    <li id="dots">
+                        <div id="p">Participant 1 </div> 
+                        <i class="fas fa-microphone-slash"></i>
+                        <i id="dots"class="fas fa-ellipsis-v"></i>
+                    </li>
+                    <li id="dots">
+                        <div  id="p">Participant 2 </div>  
+                        <i class="fas fa-microphone-slash"></i>
+                        <i id="dots"  class="fas fa-ellipsis-v"></i>
+                    </li>
+                    <li id="dots">
+                        <div  id="p">Participant 3 </div>  
+                        <i class="fas fa-microphone-slash"></i>
+                        <i id="dots" class="fas fa-ellipsis-v"></i>
+                    </li>
+                    <li >
+                        <div  id="p">Participant 4 </div>
+                        <i class="fas fa-microphone-slash"></i>
+                        <i id="dots"class="fas fa-ellipsis-v"></i>
+                        <div id="option">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-exchange-alt"></i>
+                                    <div id="1">Change Role</div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-volume-up"></i>
+                                    <div id="1">Volume</div>
+                                </li>
+                                <li>
+                                    <input type="range" id="vol" name="vol" min="0" max="50">
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>                
+            </div>
+
+            <div class="participants-icon"><i id="bar" class="fas fa-users"></i> 4</div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="video-container">
+            <div class="participant-box">
+                <div class="participant-name">Participant 1</div>
+                <video class="participant-video" muted></video>
+            </div>
+            <div class="participant-box">
+                <div class="participant-name">Participant 2</div>
+                <video class="participant-video" muted></video>
+            </div>
+        </div>
+
+        <div class="controls-bar">
+            <button class="control-button"><i class="fas fa-microphone"></i></button>
+            <button class="control-button"><i class="fas fa-video"></i></button>
+            <button class="control-button"><i class="fas fa-phone"></i></button>
+            <button class="control-button"><i class="fas fa-desktop"></i></button>
+            <button class="control-button"><i class="fas fa-cog"></i></button>
+        </div>
+    </main>
+
+    <div class="participants-floating-screen">
+        <div class="participant-item">
+            <div class="participant-name">Participant 1</div>
+            <button class="floating-mic-button"><i class="fas fa-microphone"></i></button>
+            <button class="floating-settings-button"><i class="fas fa-cog"></i></button>
+        </div>
+        <!-- Repeat the above participant-item structure for other participants -->
+    </div>
+    <div id="changeRole">
+        <ul>
+            <li>Change Role</li>
+            <li style="font-size: 12px; color:rgb(192, 192, 192);">Change Role of "Participant 4" to</li>
+            <li>
+                <select name="Role" id="Roles">
+                  <option value="volvo">Broadcast</option>
+                  <option value="saab">Host</option>
+                  <option value="mercedes">Co-host</option>
+                  <option value="audi">participant</option>
+                </select>
+            </li>
+            <div><button>Submit</button><button>Change Role</button></div>
+        </ul>
+    </div >
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
