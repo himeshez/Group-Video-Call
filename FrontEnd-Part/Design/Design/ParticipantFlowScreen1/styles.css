@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+.start-recording {
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.participants-icon {
+    width: 30px;
+    height: 30px;
+    background-color: white; /* Set appropriate icon or leave it as a placeholder */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.participant-box {
+    text-align: center;
+    width: 48%; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+.participant-name {
+    margin-top: 10px;
+}
+
+.participant-video {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.controls-bar {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.control-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.participants-floating-screen {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.participant-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.floating-mic-button,
+.floating-settings-button {
+    padding: 5px;
+    font-size: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

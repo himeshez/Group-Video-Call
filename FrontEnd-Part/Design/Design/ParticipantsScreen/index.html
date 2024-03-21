@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Video Conference</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>RnPSoft PVT LTD</h1>
+        </div>
+        <div class="video-container">
+            <div class="video-box" id="participant1"></div>
+            <div class="video-box" id="participant2"></div>
+        </div>
+        <button class="start-presentation-btn" onclick="startPresentation()">Start Presenting</button>
+        <div class="control-buttons">
+            <button class="mic-btn" onclick="toggleMic()">&#128266; Mic</button>
+            <button class="video-btn" onclick="toggleVideo()">&#128249; Video</button>
+            <button class="call-cancel-btn" onclick="cancelCall()">&#128222; Cancel Call</button>
+            <button class="screen-btn" onclick="shareScreen()">&#128187; Screen</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

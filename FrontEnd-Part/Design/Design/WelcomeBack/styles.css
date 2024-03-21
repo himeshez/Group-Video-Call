@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcome-container {
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333;
+}
+
+.small-text {
+    color: #777;
+    margin-top: 8px;
+}
+
+.user-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.other-account-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.signup-link {
+    margin-top: 20px;
+    color: #5840BA;
+}
+
+.signup-link a {
+    color: #5840BA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

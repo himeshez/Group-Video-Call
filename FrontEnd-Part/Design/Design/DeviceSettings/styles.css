@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.settings-box {
+    width: 60%;
+    background-color: #7E47EB;
+    padding: 20px;
+    color: #fff;
+}
+
+.device-settings-box {
+    width: 40%;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.settings-button, .device-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #7E47EB;
+    color: #fff;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.settings-button:hover, .device-button:hover {
+    background-color: #5D2E9D;
+}
+
+/* Add styles for camera and microphone symbols as needed */

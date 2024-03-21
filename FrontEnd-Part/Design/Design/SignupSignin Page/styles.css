@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    text-align: center;
+    width: 30%;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.login-button {
+    border-radius: 32px;
+    background: #5840BA;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+   
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #402e85;
+}
+
+.divider {
+    margin: 0 20px;
+    color: #777;
+    font-weight: bold;
+}
+
+.buttons-container {
+    text-align: center;
+    width: 40%;
+}
+
+.social-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 40px;
+    border: 1px solid #333;
+    
+    background: #FFF;
+    cursor: pointer;
+}
+.social-button img {
+    width: 20px; /* Adjust the size of the icons as needed */
+    height: 20px;
+    margin-right: 10px; /* Add some spacing between the icon and text */
+}
+
+
+.social-button:hover {
+    background-color: #ccc;
+}

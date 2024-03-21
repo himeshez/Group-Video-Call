@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 20px;
+}
+
+.video-box {
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    margin: 5px;
+}
+
+.start-presentation-btn {
+    background-color: #5840BA;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.control-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.control-buttons button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.control-buttons button:before {
+    margin-right: 5px;
+}
+
+.mic-btn:before {
+    content: "\1F399"; /* Unicode for microphone symbol */
+}
+
+.video-btn:before {
+    content: "\1F4F7"; /* Unicode for video camera symbol */
+}
+
+.call-cancel-btn:before {
+    content: "\1F6AB"; /* Unicode for phone symbol */
+}
+
+.screen-btn:before {
+    content: "\1F4BB"; /* Unicode for computer screen symbol */
+}
+/* Add more styling as needed */

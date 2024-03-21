@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.get-started {
+    font-size: 24px;
+    color: #5840BA;
+}
+
+.setup-info {
+    font-size: 12px;
+    color: #5840BA;
+}
+
+.participant-name {
+    display: flex;
+    width: 144px;
+    height: 144px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 228px;
+    top: 119px;
+    border-radius: 80px;
+    background: var(--Twin-Purple, #7E47EB);
+    
+}
+
+.icons {
+    display: flex;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.audio-button {
+    background-color: #5840BA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.video-button {
+    background-color: #5840BA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.settings-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #5840BA;
+    mask: url('settings-icon-2048x2046-cw28eevx.png') center / contain no-repeat;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.join-studio-button {
+    border-radius: 8px;
+    border: 1px solid var(--Primary-Default, #2672ED);
+    background: #5840BA;
+}
